@@ -11,15 +11,15 @@ public class Lingkaran02 {
 
         // Variable Declaration
         int r;
-        double keliling, luas;
+        double keliling, luas, phi = 3.14;
 
         // Input user
         System.out.println("Masukkan jari-jari lingkaran: ");
         r = input.nextInt();
 
         // Rumus Menghitung Keliling
-        keliling = 2 * 3.14 * r;
-        luas = 3.14 * r * r;
+        keliling = 2 * phi * r;
+        luas = phi * r * r;
 
         // Output
         System.out.println(keliling);
