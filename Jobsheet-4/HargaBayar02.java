@@ -14,6 +14,11 @@ public class HargaBayar02 {
         System.out.println("Masukkan Jumlah jumlah barang yang dibeli ");
         jumlah = input.nextInt();
 
+        total = harga * jumlah;
+        jmlDis = total * dis;
+        bayar = total - jmlDis;
+
+        
     }
 
 }
