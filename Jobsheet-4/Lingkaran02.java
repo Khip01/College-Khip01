@@ -21,7 +21,9 @@ public class Lingkaran02 {
         keliling = 2 * 3.14 * r;
         luas = 3.14 * r * r;
 
-        
+        // Output
+        System.out.println(keliling);
+        System.out.println(luas);
 
     }
 
