@@ -17,6 +17,12 @@ public class Lingkaran02 {
         System.out.println("Masukkan jari-jari lingkaran: ");
         r = input.nextInt();
 
+        // Rumus Menghitung Keliling
+        keliling = 2 * 3.14 * r;
+        luas = 3.14 * r * r;
+
+        
+
     }
 
 }
