@@ -6,6 +6,8 @@ public class HargaBayar02 {
         
         Scanner input = new Scanner(System.in);
 
+        int harga, jumlah;
+        double dis = 0.1, total, bayar, jmlDis;
         
 
     }
