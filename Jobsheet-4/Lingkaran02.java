@@ -13,7 +13,9 @@ public class Lingkaran02 {
         int r;
         double keliling, luas;
 
-        
+        // Input user
+        System.out.println("Masukkan jari-jari lingkaran: ");
+        r = input.nextInt();
 
     }
 
