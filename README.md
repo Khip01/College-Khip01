@@ -6,7 +6,7 @@
 
 <h2 style="text-align:center;">WELCOME EVERYONE👋</h2>
 
-Language : Indonesian
+Language : Indonesia
 
 ---
 
