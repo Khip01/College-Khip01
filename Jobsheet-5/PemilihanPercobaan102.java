@@ -15,7 +15,6 @@ public class PemilihanPercobaan102 {
         } else {
             System.out.println("Angka "+angka+" bilangan ganjil");
         }
-
     }
 
 }
