@@ -10,11 +10,8 @@ public class PemilihanPercobaan102 {
         System.out.print("Masukkan angka: ");
         int angka = input02.nextInt();
         
-        if (angka % 2 == 0) {
-            System.out.println("Angka "+angka+" bilangan genap");
-        } else {
-            System.out.println("Angka "+angka+" bilangan ganjil");
-        }
+        String hasil = angka % 2 == 0?"Angka "+angka+" bilangan genap":"Angka "+angka+" bilangan ganjil";
+        System.out.println(hasil);
     }
 
 }
