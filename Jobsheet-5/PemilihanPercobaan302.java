@@ -6,6 +6,8 @@ public class PemilihanPercobaan302 {
         
         Scanner input02 = new Scanner(System.in);
 
+        double angka1, angka2, hasil;
+        char operator;
 
         
 
