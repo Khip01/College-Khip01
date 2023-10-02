@@ -8,7 +8,7 @@ public class Pemilihan2Percobaan102 {
     public static void main(String[] args) {
         Scanner input02 = new Scanner(System.in);
 
-        System.out.print("masukkan Tahun: ");
+        System.out.print("Masukkan Tahun: ");
         int tahun = input02.nextInt();
 
         if ((tahun % 4) == 0 ) {
