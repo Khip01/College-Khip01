@@ -10,7 +10,10 @@ public class Pemilihan2Percobaan302 {
         int penghasilan, gajiBersih;
         double pajak = 0;
 
-        
+        System.out.print("Masukkan kategori : ");
+        kategori = input02.nextLine();
+        System.out.print("Masukkan Besarnya Penghasilan : ");
+        penghasilan = input02.nextInt();
     }
 
 }
