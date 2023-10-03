@@ -12,6 +12,8 @@ public class Pemilihan2Percobaan202 {
         System.out.print("Masukkan sudut ketiga: ");
         int sudut3 = input02.nextInt();
         
+        int totalSudut = sudut1 + sudut2 + sudut3;
+
         
     }
 }
