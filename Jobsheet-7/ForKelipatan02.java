@@ -6,6 +6,8 @@ public class ForKelipatan02 {
 
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
+
+        int kelipatan, jumlah = 0, counter = 0;
     }
 
 }
