@@ -18,6 +18,9 @@ public class ForKelipatan02 {
                 counter++;
             }
         }
+
+        System.out.printf("Banyaknya bilangan %d dari 1 sampai 50 adalah %d\n", kelipatan, counter);
+        System.out.printf("Total bilangan kelipatan dari %d dari 1 sampai 50 adalah %d\n", kelipatan, total);
     }
 
 }
