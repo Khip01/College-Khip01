@@ -8,6 +8,9 @@ public class ForKelipatan02 {
         Scanner scan = new Scanner(System.in);
 
         int kelipatan, jumlah = 0, counter = 0;
+
+        System.out.print("Masukkan kelipatan (1-9): ");
+        kelipatan = scan.nextInt();
     }
 
 }
