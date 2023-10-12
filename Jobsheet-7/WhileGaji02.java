@@ -12,6 +12,7 @@ public class WhileGaji02 {
 
         String jabatan;
 
-        
+        System.out.print("Masukkan jumlah karyawan: ");
+        jumlahKaryawan = scan.nextInt();
     }
 }
