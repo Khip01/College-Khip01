@@ -6,5 +6,8 @@ public class DoWhileCuti02 {
         Scanner sc = new Scanner(System.in);
 
         int jatahCuti, jumlahHari;
+        String konfirmasi; 
+
+        
     }
 }
