@@ -7,6 +7,7 @@ public class LinearSearch02 {
         int key = 20;
         int hasil = 0;
         int jumElemenArray = 0;
+        boolean isFound = false;
 
         System.out.print("Masukkan jumlah elemen array: ");
         jumElemenArray = sc.nextInt();
@@ -24,11 +25,16 @@ public class LinearSearch02 {
         for (int j = 0; j < arrayInt.length; j++) {
             if (arrayInt[j] == key) {
                 hasil = j;
+                isFound = true;
                 break;
             }
         }
 
-        System.out.println("Key ada dalam array pada posisi indeks ke-"+hasil);
+        if (isFound) {
+            System.out.println("Key ada dalam array pada posisi indeks ke-"+hasil);
+        } else {
+            System.out.println("Key tidak ditemukan");
+        }
 
     }
 }
