@@ -5,24 +5,31 @@ public class ArrayRataNilai02 {
         Scanner sc = new Scanner(System.in);
 
         int[] nilaiMhs= new int[10];
-        double total = 0;
-        double rata2;
-        int counterMhsLulus = 0;
+        double totalNilaiLulus = 0, totalNilaiTdkLulus = 0;
+        double rataNilaiLulus = 0, rataNilaiTdkLulus = 0;
+        int inputJumMhs, jumMhsLulus = 0, jumMhsTdkLulus = 0;
+
+        System.out.print("Masukkan jumlah mahasiswa : ");
+        inputJumMhs = sc.nextInt();
         
-        for (int i = 0; i < nilaiMhs.length; i++) {
+        for (int i = 0; i < inputJumMhs; i++) {
             System.out.print("masukkan nilai mahasiswa ke-"+(i+1)+" : ");
             nilaiMhs[i] = sc.nextInt();
         }
 
-        for (int i = 0; i < nilaiMhs.length; i++) {
-            total += nilaiMhs[i];
+        for (int i = 0; i < inputJumMhs; i++) {
             if (nilaiMhs[i] > 70) {
-                counterMhsLulus += 1;
+                totalNilaiLulus += nilaiMhs[i];
+                jumMhsLulus++;
+            } else {
+                totalNilaiTdkLulus += nilaiMhs[i];
+                jumMhsTdkLulus++;
             }
         }
 
-        rata2 = total/nilaiMhs.length;
-        System.out.println("Rata-rata nilai = "+rata2);
-        System.out.println("Jumlah mahasiswa yang lulus = "+counterMhsLulus);
+        rataNilaiLulus = totalNilaiLulus/(double)jumMhsLulus;
+        rataNilaiTdkLulus = totalNilaiTdkLulus/(double)jumMhsTdkLulus;
+        System.out.println("Rata-rata nilai lulus = "+rataNilaiLulus);
+        System.out.println("Rata-rata nilai tidak lulus = "+rataNilaiTdkLulus);
     }
 }
