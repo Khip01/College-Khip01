@@ -12,5 +12,9 @@ public class ArrayRataNilai02 {
             System.out.print("masukkan nilai mahasiswa ke-"+(i+1)+" : ");
             nilaiMhs[i] = sc.nextInt();
         }
+
+        for (int i = 0; i < nilaiMhs.length; i++) {
+            total += nilaiMhs[i];
+        }
     }
 }
