@@ -21,10 +21,10 @@ public class Bioskop02 {
         System.out.printf("%s \t %s\n", penonton[3][0], penonton[3][1]);
         
         System.out.println(penonton.length);
-        System.out.println(penonton[0].length);
-        System.out.println(penonton[1].length);
-        System.out.println(penonton[2].length);
-        System.out.println(penonton[3].length);
+
+        for (int i = 0; i < penonton.length; i++) {
+            System.out.println("Panjang baris ke-" + (i+1) + ": " + penonton[i].length);
+        }
     }
 
 }
