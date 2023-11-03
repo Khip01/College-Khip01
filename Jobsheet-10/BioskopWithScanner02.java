@@ -10,6 +10,10 @@ public class BioskopWithScanner02 {
 
         String[][] penonton = new String[4][2];
 
+        System.out.println("Menu 1: Input data penonton");
+        System.out.println("Menu 2: Tampilkan daftar penonton");
+        System.out.println("Menu 3: Exit");
+
         while (true) {
             System.out.print("Masukkan nama: ");
             nama = input.nextLine();
@@ -27,8 +31,9 @@ public class BioskopWithScanner02 {
             if (next.equalsIgnoreCase("n")) {
                 break;
             }
-
         }
+
+
     }
 
 }
