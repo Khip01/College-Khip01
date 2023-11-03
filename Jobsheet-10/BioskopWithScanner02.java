@@ -23,6 +23,12 @@ public class BioskopWithScanner02 {
             kolom = input.nextInt();
             input.nextLine();
 
+            // Menghandle apakah nomor baris/kolom tidak tersedia 
+            if(baris >= penonton.length || kolom >= penonton[baris].length){
+                System.out.println("Maaf baris/kolom melebihi batas");
+                break;
+            }
+
             penonton[baris-1][kolom-1] = nama;
 
             System.out.print("Input penonton lainnya? (y/n): ");
