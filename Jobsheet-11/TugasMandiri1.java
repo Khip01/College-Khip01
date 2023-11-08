@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class TugasMandiri {
+public class TugasMandiri1 {
     public static void main(String[] args) {
         
         Scanner input = new Scanner(System.in);
