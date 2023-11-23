@@ -4,7 +4,7 @@
 public class TerimaKasih_02 {
 
     public static void main(String[] args) {
-        
+        UcapanTerimaKasih();
     }
 
     public static void UcapanTerimaKasih(){
