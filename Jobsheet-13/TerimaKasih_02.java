@@ -15,6 +15,7 @@ public class TerimaKasih_02 {
     }
 
     public static void UcapanTambahan(String ucapan){
+        ucapan = "anjay";
         System.out.println(ucapan);
     }
 }
