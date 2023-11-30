@@ -13,6 +13,9 @@ public class Percobaan2 {
         Scanner sc = new Scanner(System.in);
         int bilangan, pangkat;
         
-        
+        System.out.print("Bilangan yang dihitung: ");
+        bilangan = sc.nextInt();
+        System.out.print("Pangkat: ");
+        pangkat = sc.nextInt();
     }
 }
