@@ -48,7 +48,7 @@ public class Tugas {
     //// TUGAS NO 4
     // Berapa pasangan marmut yang ada pada akhir bulan ke-12? 
     // Buatlah programnya menggunakan fungsi rekursif! (Fibonacci)
-    // 1 + (1 + (2 + (3) + (5)))
+    // 1 + (1 + (2 + (3 + (5))))
     static int fibonacciMarmut(int bulan, int pasangan, int pasanganBefore){
         if (bulan == 1) {
             return pasangan;
