@@ -29,14 +29,30 @@ public class Tugas {
         }
     }
 
+    //// TUGAS NO 3
+    // mengecek apakah suatu bilangan n merupakan 
+    // bilangan prima atau bukan.
+    static boolean cekPrimaRekursif(int n, int m){
+        if (n == m) {
+            m = n-1;
+        }
+        if (m == 1) {
+            return true;
+        } else if (n % m == 0) {
+            return false;
+        } else {
+            return cekPrimaRekursif(n, m-1);
+        }
+    }
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int f;
+        int n;
 
-        System.out.print("masukkan f: ");
-        f = input.nextInt();
+        System.out.print("masukkan n: ");
+        n = input.nextInt();
 
         System.out.println("Fungsi Rekursif");
-        System.out.println("Hasil = "+penjumlahanRekursif(f));
+        System.out.println("Apakah dia prima? "+cekPrimaRekursif(n, n));
     }
 }
