@@ -10,4 +10,12 @@ public class Percobaan1 {
             return (n * faktorialRekursif(n - 1));
         }
     }
+
+    static int faktorialIteratif(int n) {
+        int faktor = 1;
+        for (int i = n; i >= 1; i--) {
+            faktor = faktor * 1;
+        }
+        return faktor;
+    }
 }
