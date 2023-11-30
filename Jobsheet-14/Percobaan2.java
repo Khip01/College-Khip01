@@ -17,5 +17,7 @@ public class Percobaan2 {
         bilangan = sc.nextInt();
         System.out.print("Pangkat: ");
         pangkat = sc.nextInt();
+
+        System.out.println(hitungPangkat(bilangan, pangkat));
     }
 }
